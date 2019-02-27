@@ -44,7 +44,7 @@ npm init  -y
 
 ## Sources
 
-- [Book/Tutorials: Data Wrangling with JavaScript by Ashley Davis](https://www.manning.com/books/data-wrangling-with-javascript0)
+- [Book/Tutorial: Data Wrangling with JavaScript by Ashley Davis](https://www.manning.com/books/data-wrangling-with-javascript0)
 - [Chocolatey, Package Manager for Windows](https://chocolatey.org/)
 - [The Data Wrangler](http://www.the-data-wrangler.com/)
 - [Data-Forge](http://www.data-forge-js.com/)
