@@ -2,6 +2,7 @@
 
 > A demo introducing data wrangling in JavaScript using a simple Node.js console app that produces a report from data.
 >- For simplicity, the data is hard-coded into the app
+>- Includes an example of a node.js module/library
 
 
 
@@ -31,15 +32,33 @@ npm init  -y
 //This creates an npm package file, "package.json"
 ```
 
+## Notes
 
+### Creating modules/libraries in Node.js
 
+#### Export/Import a single function
 
+- Create a file.js and export a single function, ` module.exports = myFuntion(){...} `
+- Import a single function where needed, ` const myFunction() = require('./pathToFile')  `
 
+#### Export/Import several functions
 
-
-
-
-
+```
+module.exports = {
+  myfunction1: function() {
+    //
+    //Code
+    //
+    //Return result
+  },
+  mySecondFunction: function() {
+    //
+    //Code
+    //
+    //Return result
+  }
+}
+```
 
 
 ## Sources

@@ -72,15 +72,8 @@ const data = [
   }
 ];
 
-//helper function to generate report from data
-function generateReport(data) {
-  const columns = Object.keys(data[0]);
-  return {
-    numRows: data.length,
-    numColumns: columns.length,
-    columnNames: columns
-  };
-}
+//Import generateReport function from separate file/module
+const generateReport = require('./generate-report');
 
 //Generate and output report to console
 const report = generateReport(data);
